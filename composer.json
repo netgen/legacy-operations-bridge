@@ -1,0 +1,26 @@
+{
+    "name": "netgen/legacy-operations-bridge",
+    "description": "Netgen's eZ Publish Legacy to eZ Platform bridge",
+    "license": "GPL-2.0-only",
+    "type": "ezpublish-legacy-extension",
+    "keywords": [
+        "ezpublish",
+        "ezplatform",
+        "netgen"
+    ],
+    "authors": [
+        {
+            "name": "Petar Španja",
+            "email": "petar@spanja.info"
+        }
+    ],
+    "require": {
+        "ezsystems/ezpublish-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "ngoperationsbridge",
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
