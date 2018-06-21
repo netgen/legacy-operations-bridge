@@ -1,5 +1,10 @@
 # Legacy Operations Bridge
 
+[![Downloads](https://img.shields.io/packagist/dt/netgen/legacy-operations-bridge.svg?style=flat-square)](https://packagist.org/packages/netgen/legacy-operations-bridge/stats)
+[![Latest stable](https://img.shields.io/packagist/v/netgen/legacy-operations-bridge.svg?style=flat-square)](https://packagist.org/packages/netgen/legacy-operations-bridge)
+[![License](https://img.shields.io/github/license/netgen/legacy-operations-bridge.svg?style=flat-square)](LICENSE)
+[![PHP](https://img.shields.io/badge/php-%3E%3D%205.6-8892BF.svg?style=flat-square)](https://secure.php.net/)
+
 This eZ Publish Legacy extension allows override of some operations to be performed using eZ
 Platform Repository API. Main motivation behind this is better integration of Legacy Admin UI with
 Solr Search Engine, which otherwise requires delayed indexing for some trivial operations, like
